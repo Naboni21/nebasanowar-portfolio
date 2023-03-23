@@ -10,6 +10,10 @@
     background-color: aquamarine;
     height: 60px;
     width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    
 }
 ul{
     float: right;
@@ -22,3 +26,10 @@ ul li {
     margin: 0 5px;
     font-size: large;
 }
+
+@media (max-width: 800px) {
+    #navbar {
+      flex-direction: column;
+    }
+    
+  }
